@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jalaj.firstapp.lecture2_assignment2.MainActivity">
+
+    <TextView
+        android:text="text_red"
+        android:layout_width="0dp"
+        tools:layout_editor_absoluteY="22dp"
+        android:id="@+id/textView"
+        android:layout_height="100dp"
+        tools:text="Red"
+        android:contentDescription="Im Red Color"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        android:layout_marginEnd="16dp" />
+
+</android.support.constraint.ConstraintLayout>
